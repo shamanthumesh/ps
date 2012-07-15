@@ -1,0 +1,79 @@
+.wrap {
+	margin: auto;
+	width: 1180px;
+}
+
+#slides {
+	width: 999999px;
+}
+
+#slides > div {
+	float: left;
+	height: 600px;
+	width: 1180px;
+	margin-right: 200px;
+	text-align: center;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	 box-orient: horizontal;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	margin-top : 50px;
+}
+
+#slides {
+	font-family: arial;
+}
+
+#slides h1,
+#slides h2,
+#slides h3,
+#slides h4,
+#slides h5 {
+	color: #990000;
+	font-family: 'League Gothic', Arial, Helvetica;
+	margin-top: 0;
+	text-shadow: 1px 1px 0 white;
+}
+
+#slides > div h2 {
+	line-height: 1em;
+	margin: 0;
+	font-size : 50px;
+}
+
+h2 span {
+    color: blue;
+    display: block;
+    font-family: 'Crimson Text';
+    font-size: 160px;
+    font-style: italic;
+    letter-spacing: -1px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    text-shadow: 6px 1px 0 silver;
+}
+
+#slides h3 {
+	border-bottom: 1px solid #666;
+	font-size: 40px;
+	margin-bottom: .4em;
+	padding-bottom: 20px;
+	padding-right: 50px;
+}
+
+
+#slides ul {
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-top: 0;
+	padding-left: 0;
+	text-align: left;
+}
+li {
+	color: silver ;
+	font-size: .9em;
+}
+span#CurrenPageId{
+	color:silver;
+}
